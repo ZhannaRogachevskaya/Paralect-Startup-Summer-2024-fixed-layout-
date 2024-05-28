@@ -4,7 +4,7 @@ import "../components/MainLayout/MainLayout.css";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 import { CacheProvider } from "@emotion/react";
 import createEmotionCache from "../create-emotion-cache";
-import { NotFound } from "./not-found";
+import NotFound from "./not-found";
 
 const cache = createEmotionCache();
 export const metadata = {
