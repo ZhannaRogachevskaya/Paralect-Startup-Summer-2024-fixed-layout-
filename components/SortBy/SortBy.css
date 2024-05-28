@@ -1,0 +1,16 @@
+.sort_by {
+  align-self: flex-end;
+}
+@media screen and (max-width: 1140px) {
+  .sort_by {
+    max-width: 150px;
+    align-self: flex-start;
+  }
+}
+
+.native_select option {
+  padding: 0;
+  background-color: #fff;
+  font-size: 12px;
+  color: grey;
+}

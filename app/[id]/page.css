@@ -1,0 +1,27 @@
+.wrapper {
+  width: 100%;
+  padding: 40px 85px 40px 85px;
+}
+.container {
+  width: 69%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  text-align: left;
+}
+.breadcrumbs {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9854f6;
+  margin-bottom: 20px;
+  display: flex;
+}
+@media screen and (max-width: 615px) {
+  .wrapper {
+    padding: 40px 0;
+  }
+  .container {
+    width: 100%;
+  }
+}

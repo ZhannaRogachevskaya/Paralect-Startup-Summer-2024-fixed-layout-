@@ -1,0 +1,150 @@
+.card__wrapper,
+.trailer__wrapper {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 770px) {
+  .card__wrapper,
+  .trailer__wrapper {
+    width: 550px;
+  }
+  .card__container {
+    position: relative;
+  }
+  .add__rated-movies {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+@media screen and (max-width: 615px) {
+  .card__wrapper,
+  .trailer__wrapper {
+    width: 400px;
+  }
+  .card__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card__information h1,
+  .card__information .release-year {
+    text-align: center;
+  }
+  .card__information .rating {
+    display: flex;
+    justify-content: center;
+  }
+  .duration {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 440px) {
+  .card__wrapper,
+  .trailer__wrapper {
+    width: 300px;
+  }
+}
+.card__container {
+  width: 100%;
+  display: flex;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.card__container img.poster {
+  width: 250px;
+  height: 352px;
+}
+.card__information {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 16px;
+}
+.card__information h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #9854f6;
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+.card__information .release-year {
+  font-size: 16px;
+  color: #7b7c88;
+  font-weight: 400;
+}
+.card__information .rating {
+  font-size: 16xp;
+  font-weight: 600;
+}
+.genres {
+  margin-top: auto;
+}
+.duration {
+  display: flex;
+  margin-top: auto;
+}
+.duration h3,
+.duration p {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.duration h3:last-child,
+.duration p:last-child {
+  margin-bottom: 0;
+}
+.duration h3 {
+  color: #7b7c88;
+}
+.titles {
+  margin-right: 20px;
+}
+.release-year {
+  color: #7b7c88;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.rating {
+  display: flex;
+}
+.trailer__wrapper h2 {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.prodaction__name {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.prodaction__name img.prod,
+.prodaction__name .null {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.prod {
+  display: flex;
+  margin-bottom: 12px;
+  align-items: center;
+  width: 100%;
+}
+.trailer {
+  max-width: 100%;
+}
+.wrapper__loader {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}

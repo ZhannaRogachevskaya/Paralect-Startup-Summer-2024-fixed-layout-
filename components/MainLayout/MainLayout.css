@@ -1,0 +1,54 @@
+.mantine-AppShell-root .mantine-AppShell-navbar {
+  background-color: #f2ebf9;
+  padding: 24px;
+  width: 280px;
+}
+.mantine-AppShell-main {
+  background-color: #f5f5f6;
+  padding: 0px 0px 0px 280px;
+}
+
+img.logo {
+  width: 135px;
+  height: 36px;
+}
+.logo-link {
+  margin-bottom: 80px;
+}
+.mantine-AppShell-root .mantine-Button-root:hover,
+.mantine-AppShell-root .mantine-Button-root.active {
+  color: #9854f6;
+  font-weight: 700;
+  background-color: #e5d5fa;
+  text-align: left;
+}
+@media screen and (max-width: 1140px) {
+  .mantine-AppShell-root .mantine-AppShell-navbar {
+    width: 200px;
+  }
+  .mantine-AppShell-main {
+    padding: 0px 0px 0px 200px;
+  }
+
+  a.logo-link img {
+    width: 150px;
+    height: 28.9px;
+  }
+}
+
+.btn_toggle_menu.mantine-Button-root {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .btn_toggle_menu.mantine-Button-root {
+    display: block;
+  }
+  .mantine-AppShell-main {
+    padding: 0;
+  }
+}

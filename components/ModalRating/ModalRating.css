@@ -1,0 +1,38 @@
+.title__movie {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 16px 0;
+}
+.mantine-Modal-root {
+  --modal-size: 380px;
+
+  --modal-x-offset: 16px;
+  --modal-y-offset: 16px;
+}
+
+.modal__content {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #eaebed;
+}
+.mantine-Rating-root {
+  --rating-size: 28px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.btns_rating {
+  display: flex;
+  width: 54%;
+  margin-top: 16px;
+}
+@media screen and (max-width: 1320px) {
+  .btns_rating {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1320px) {
+  .mantine-Modal-root {
+    --modal-size: 300px;
+  }
+}
