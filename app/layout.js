@@ -25,7 +25,9 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <MantineProvider>{children}</MantineProvider>
+        <MantineProvider withGlobalStyles withNormalizeCSS>
+          {children}
+        </MantineProvider>
       </body>
     </html>
   );
