@@ -1,3 +1,4 @@
+"use client";
 import "@mantine/core/styles.css";
 import "./globals.css";
 import "../components/MainLayout/MainLayout.css";
@@ -7,9 +8,9 @@ import createEmotionCache from "../create-emotion-cache";
 import NotFound from "./not-found";
 
 const cache = createEmotionCache();
-export const metadata = {
-  title: "MOVIE SEARCH APP",
-};
+// export const metadata = {
+//   title: "MOVIE SEARCH APP",
+// };
 
 export function Error({ statusCode }) {
   if (statusCode === 404) {
