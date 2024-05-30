@@ -1,11 +1,18 @@
 .container {
   width: 100%;
-  padding: 40px 85px 40px 85px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 40px 85px 40px 85px;
 }
+.cards__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
 .search__wrapper {
   display: flex;
   width: 100%;
@@ -25,6 +32,62 @@
   --input-radius: 8px;
   --input-fz: 14px;
 }
+.input-search {
+  display: flex;
+  position: relative;
+}
+.btn-search {
+  position: absolute;
+  margin-top: 6px;
+  right: 12px;
+}
+.mantine-Input-input {
+  --input-padding-y: 8px;
+  --input-fz: 14px;
+  color: #acadb9;
+}
+
+.wrapper__loader {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper__not-found {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f5f6;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper__not-found .container {
+  padding: 0;
+}
+.logo_error {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+}
+.text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
 @media screen and (max-width: 1240px) {
   .container {
     padding: 40px 40px 40px 40px;
@@ -72,66 +135,4 @@
   .search__wrapper h1 {
     margin-bottom: 10px;
   }
-}
-.input-search {
-  display: flex;
-  position: relative;
-}
-.btn-search {
-  position: absolute;
-  margin-top: 6px;
-  right: 12px;
-}
-.mantine-Input-input {
-  --input-padding-y: 8px;
-  --input-fz: 14px;
-  color: #acadb9;
-}
-.cards__wrapper {
-  width: 100%;
-  display: flex;
-  margin-top: 24px;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-}
-
-.wrapper__loader {
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-.wrapper__not-found {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: #f5f5f6;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.wrapper__not-found .container {
-  padding: 0;
-}
-.logo_error {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-.text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 48px;
-}
-.text h3 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 16px;
 }
