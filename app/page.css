@@ -36,6 +36,10 @@
   display: flex;
   position: relative;
 }
+.input-search.m_6c018570.mantine-Input-wrapper {
+  position: absolute;
+  right: 0;
+}
 .btn-search {
   position: absolute;
   margin-top: 6px;
