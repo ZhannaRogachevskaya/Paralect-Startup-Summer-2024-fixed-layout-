@@ -113,8 +113,8 @@ const CardItemDuration = ({ id, updateBreadcrumbs }) => {
           <div className="trailer__wrapper">
             <h2>Trailer</h2>
             <div className="trailer">
-              {/* {data.videos.results !== null ? ( */}
-              {data.videos.results !== undefined ? (
+              {data.videos.results !== null &&
+              data.videos.results[0].key !== undefined ? (
                 <ReactPlayer
                   url={`www.youtube.com/watch?v=${data.videos.results[0].key}`}
                   width="100%"
