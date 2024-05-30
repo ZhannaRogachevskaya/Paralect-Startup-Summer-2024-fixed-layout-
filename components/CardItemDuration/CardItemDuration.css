@@ -4,13 +4,12 @@
   background-color: #ffffff;
   border-radius: 12px;
   padding: 24px;
-  margin-right: 16px;
   margin-bottom: 16px;
 }
 
 @media screen and (max-width: 770px) {
-  .card__wrapper,
-  .trailer__wrapper {
+  .container_id .card__wrapper,
+  .container_id .trailer__wrapper {
     width: 550px;
   }
   .card__container {
@@ -23,8 +22,8 @@
   }
 }
 @media screen and (max-width: 615px) {
-  .card__wrapper,
-  .trailer__wrapper {
+  .container_id .card__wrapper,
+  .container_id .trailer__wrapper {
     width: 400px;
   }
   .card__container {
@@ -44,8 +43,8 @@
   }
 }
 @media screen and (max-width: 440px) {
-  .card__wrapper,
-  .trailer__wrapper {
+  .container_id .card__wrapper,
+  .container_id .trailer__wrapper {
     width: 300px;
   }
 }
