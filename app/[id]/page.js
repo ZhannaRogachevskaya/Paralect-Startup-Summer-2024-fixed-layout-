@@ -18,8 +18,9 @@ const Movie = (id) => {
           <div className="breadcrumbs">
             <Link href="/">Movie </Link> / {breadcrumbs}
           </div>
-          <div className="conteiner__cardItemDuration"></div>
-          <CardItemDuration id={id} updateBreadcrumbs={updateBreadcrumbs} />
+          <div className="conteiner__cardItemDuration">
+            <CardItemDuration id={id} updateBreadcrumbs={updateBreadcrumbs} />
+          </div>
         </div>
       </div>
     </MainLayout>
