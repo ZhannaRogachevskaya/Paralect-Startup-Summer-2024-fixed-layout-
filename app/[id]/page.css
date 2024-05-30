@@ -17,6 +17,11 @@
   margin-bottom: 20px;
   display: flex;
 }
+.conteiner__cardItemDuration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media screen and (max-width: 615px) {
   .wrapper_id {
     padding: 40px 0;

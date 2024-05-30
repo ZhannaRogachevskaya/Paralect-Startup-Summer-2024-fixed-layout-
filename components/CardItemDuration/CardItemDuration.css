@@ -1,5 +1,5 @@
-.card__wrapper,
-.trailer__wrapper {
+.container_id .card__wrapper,
+.container_id .trailer__wrapper {
   width: 100%;
   background-color: #ffffff;
   border-radius: 12px;
