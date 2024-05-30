@@ -13,8 +13,8 @@ const Movie = (id) => {
   };
   return (
     <MainLayout>
-      <div className="wrapper">
-        <div className="container">
+      <div className="wrapper_id">
+        <div className="container_id">
           <div className="breadcrumbs">
             <Link href="/">Movie </Link> / {breadcrumbs}
           </div>
