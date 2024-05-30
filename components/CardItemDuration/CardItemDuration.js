@@ -66,7 +66,7 @@ const CardItemDuration = ({ id, updateBreadcrumbs }) => {
           <Loader color="violet" type="bars" />
         </div>
       ) : (
-        <div>
+        <div className="conteiner__cardItemDuration">
           <div className="card__wrapper">
             <div className="card__container">
               <img
