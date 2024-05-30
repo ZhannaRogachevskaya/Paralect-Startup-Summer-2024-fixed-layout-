@@ -50,9 +50,7 @@
   width: 100%;
   display: flex;
 }
-img.poster {
-  width: 55%;
-}
+
 .card__information {
   display: flex;
   width: 100%;
