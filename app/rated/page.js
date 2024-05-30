@@ -52,7 +52,7 @@ const Rated = () => {
           {listRated == 0 ? (
             <Empty />
           ) : (
-            <div className="cards__wrapper">
+            <div className="cards__wrapper-rated">
               <div className="wrapper__header">
                 <h1 style={{ marginBottom: "40px" }}>Watched movies</h1>
                 <div className="input-search">
