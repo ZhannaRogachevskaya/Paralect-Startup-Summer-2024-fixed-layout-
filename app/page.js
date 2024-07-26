@@ -22,7 +22,7 @@ const Home = () => {
   const [selectedYear, setSelectedYear] = useState(0);
   const [voteGte, setVoteGte] = useState("");
   const [voteLte, setVoteLte] = useState("");
-  const [sortBy, setSortBy] = useState("vote_average.desc");
+  const [sortBy, setSortBy] = useState("revenue.desc");
   const [activePage, setPage] = useState(8);
   const [totalPages, setTotalPages] = useState(0);
   const [emptyResult, setEmptyResult] = useState(false);
