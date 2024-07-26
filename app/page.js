@@ -23,7 +23,7 @@ const Home = () => {
   const [voteGte, setVoteGte] = useState("");
   const [voteLte, setVoteLte] = useState("");
   const [sortBy, setSortBy] = useState("");
-  const [activePage, setPage] = useState(4);
+  const [activePage, setPage] = useState(8);
   const [totalPages, setTotalPages] = useState(0);
   const [emptyResult, setEmptyResult] = useState(false);
 
